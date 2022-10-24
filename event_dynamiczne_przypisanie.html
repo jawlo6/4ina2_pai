@@ -1,0 +1,12 @@
+<h2>Dynamiczne przypisanie zdarzenia</h2>
+
+<button id="myButton">Wyświetl datę</button>
+<p id="demo"></p>
+
+<script>
+    document.querySelector("#myButton").onclick= displayDate;
+    
+    function displayDate(){
+        document.querySelector( "#demo").innerHTML = Date();
+    }
+</script>
